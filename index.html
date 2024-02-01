@@ -10,7 +10,7 @@
   <!--
     - favicon
   -->
-  <link rel="icon" href="./assets/images/logo_roket.png" type="image/png">
+  <link rel="shortcut icon" href="./assets/images/logo_roket.png" type="image/x-icon">
 
   <!--
     - custom css link
@@ -42,7 +42,7 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/my_picture.jpg" alt="Ismail Kisa" width="80">
+          <img src="./assets/images/my_picture.png" alt="Ismail Kisa" width="80">
         </figure>
 
         <div class="info-content">
@@ -154,7 +154,6 @@
 
 
 
-
     <!--
       - #main-content
     -->
@@ -169,18 +168,20 @@
 
         <ul class="navbar-list">
 
-          <!-- <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
           </li>
 
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Resume</button>
           </li>
 
+          
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
+            <button class="navbar-link" data-nav-link>Projects</button>
           </li>
 
+          <!--
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Blog</button>
           </li>
@@ -204,26 +205,633 @@
       <article class="about active" data-page="about">
 
         <header>
-          <h2 class="h2 article-title">Under Construction</h2>
+          <h2 class="h2 article-title">About me</h2>
         </header>
 
         <section class="about-text">
           <p>
-            My personal website is coming soon!
+          Welcome to my personal website! 
+          I'm excited to share my journey with you as a Technology Enthusiast with a focus on AI, Robotics, and Databases. 
+          I completed my Computer Science degree at the University of Tübingen and earned my B.Sc. and M.Sc.
           </p>
-
-          <!-- <p>
-            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-            Moreover, I
-            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-            across your
-            message and identity in the most creative way. I created web design for many famous brand companies.
-          </p> -->
+          <p>
+            During my academic journey, I had the incredible opportunity to collaborate with Bosch on my Master's thesis, delving into the fascinating realm of autonomous driving. 
+            This experience led to the publication of a research paper, marking a significant milestone in my career.  
+            One of my proudest achievements has been developing a robotic arm capable of playing Nine Men's Morris, combining the fields of robotics, AI, and computer vision in an exciting project.
+          </p>
+          <p>
+            I have a passion for learning and mastering of new things. 
+            As a fast learner, I am constantly seeking opportunities to expand my knowledge and skills.
+            Outside of work, I've been playing soccer for over 15 years, and I'm always up for trying new things and exploring.
+            Also, I really enjoy helping kids learn as a volunteer tutor. It's amazing to see them discover new things! 
+          </p>
+          <p>
+            Feel free to check out my recent projects and don't hesitate to get in touch with me anytime. 
+          </p>
         </section>
 
+
+
         <!--
-          - service
+          - testimonials modal
+          - If this part is missing then the navigation btns do not work.
         -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </section>
+
+        </div>
+        
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">M.Sc. Computer Science,</h4>
+                <h5 class="h5 timeline-item-title2">University of Tübingen.</h5> 
+
+              <span>04/2021 — 04/2023</span>
+
+              <p class="timeline-text">
+                Specialization: Robotics, AI and Databases. </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">B.Sc. Computer Science,</h4>
+              <h5 class="h5 timeline-item-title2">University of Tübingen.</h5> 
+
+              <span>10/2017 — 02/2021</span>
+
+              <p class="timeline-text">Specialization: Numeric. Minor: Physics.</p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Business High School,</h4>
+              <h5 class="h5 timeline-item-title2">Jakob Friedrich Schöllkopfschule.</h5> 
+
+              <span>09/2014 — 06/2017</span>
+
+              <p class="timeline-text">Specialization: Physics and Computer Science (Java).</p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Internship (Data Analyst),</h4>
+              <h5 class="h5 timeline-item-title2">Turkish Aerospace Industries.</h5> 
+
+              <span>08/2023 — 09/2023</span>
+
+              <p class="timeline-text">
+                Department: Flight Control Software. Tasks: 
+                Generation and analysis of flight data using machine learning methods; summary of the analysis results.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Internship & Master Thesis,</h4>
+              <h5 class="h5 timeline-item-title2">Robert Bosch GmbH.</h5> 
+
+
+              <span>10/2022 — 05/2023</span>
+
+              <p class="timeline-text">
+                Department: Advanced Autonomous Systems (AAS). 
+                Tasks: Development of a deep neural network for behaviour prediction in autonomous driving; 
+                publication of the results in a research article.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Internship (Development Project),</h4>
+              <h5 class="h5 timeline-item-title2">University of Tübingen.</h5> 
+
+
+              <span>04/2022 — 08/2022</span>
+
+              <p class="timeline-text">
+                Field: Mobile robotics. 
+                Tasks: Development of an autonomously driving robot; implementation of algorithms for mapping, obstacle avoidance, path planning and path following; 
+                performing tests in real scenarios.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Volunteer Tutor,</h4>
+              <h5 class="h5 timeline-item-title2">Kirchheim/Teck.</h5> 
+
+
+              <span>since 12/2021</span>
+
+              <p class="timeline-text">
+                Tutoring and counseling of a group consisting of 15 elementary school students.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Research Assistant,</h4>
+              <h5 class="h5 timeline-item-title2">University of Tübingen.</h5> 
+
+              <span> 04/2021 — 04/2022</span>
+
+              <p class="timeline-text">
+                Projects and software development related to robot arm control. 
+                Tasks: Increase the modularity, efficiency and flexibility of the software architecture; 
+                       optimise the neural networks for object detection; 
+                       create a GUI; 
+                       optimise the game AI.             
+               </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Teaching Assistant,</h4>
+              <h5 class="h5 timeline-item-title2">University of Tübingen.</h5> 
+
+
+              <span>04/2020 — 04/2021</span>
+
+              <p class="timeline-text">
+                Tutoring the ''Advanced SQL'' and ''Functional Programming in Scheme'' lectures. 
+              </p>
+
+            </li>
+
+            <!-- <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Internship (Analyst),</h4>
+              <h5 class="h5 timeline-item-title2">Die Netzwerker Computernetze GmbH</h5> 
+
+
+              <span>02/2012 — 03/2013</span>
+
+              <p class="timeline-text">
+                Tutoring and counseling of a group consisting of 15 elementary school students.
+              </p>
+
+            </li> -->
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Publication</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Marcel Hallgarten, Ismail Kisa, Martin Stoll, Andreas Zell.</h4>
+                <h5 class="h5 timeline-item-title2"></h5> 
+
+              <span>2023</span>
+
+              <p class="timeline-text">
+                Stay on Track: A Frenet Wrapper to Overcome Off-road Trajectories in Vehicle Motion Prediction.
+                arXiv preprint arXiv:2306.00605
+              </p>
+
+              </li>
+
+          </ol>
+
+        </section>
+
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Deep Learning</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data analysis</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C++</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+        </section>
+
+        <section class="download" style="padding-top: 50px;">
+
+          <a style="color: aliceblue" href="assets/Lebenslauf.pdf">
+            Download Resume as PDF
+          </a>
+
+        </section>
+
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="projects" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <section class="about-text">
+            <p>
+              Projects will be added soon!
+            </p>
+
+
+          </section>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+          </div>
+
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
 
 
   <!--
