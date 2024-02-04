@@ -812,7 +812,7 @@ main {
   display: inline;
 }
 
-.timeline-list span {
+.timeline-item span {
   color: var(--light-blue2);
   font-weight: var(--fw-400);
   line-height: 1.6;
