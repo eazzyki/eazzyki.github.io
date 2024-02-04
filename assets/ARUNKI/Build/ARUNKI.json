@@ -1,0 +1,13 @@
+{
+"companyName": "IsmailKisa",
+"productName": "ARUNKI",
+"dataUrl": "ARUNKI.data.unityweb",
+"wasmCodeUrl": "ARUNKI.wasm.code.unityweb",
+"wasmFrameworkUrl": "ARUNKI.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#805519",
+"cacheControl": {"default": "must-revalidate"}
+}

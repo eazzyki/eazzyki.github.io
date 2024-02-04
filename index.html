@@ -181,14 +181,13 @@
             <button class="navbar-link" data-nav-link>Projects</button>
           </li>
 
-          <!--
-          <li class="navbar-item">
+          <!-- <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Blog</button>
           </li>
 
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
-          </li> -->
+          </li>  -->
 
         </ul>
 
@@ -222,7 +221,7 @@
           <p>
             I have a passion for learning and mastering of new things. 
             As a fast learner, I am constantly seeking opportunities to expand my knowledge and skills.
-            Outside of work, I've been playing soccer for over 15 years, and I'm always up for trying new things and exploring.
+            Outside of work, I love creating personal projects and playing soccer. I'm always up for trying new things and exploring.
             Also, I really enjoy helping kids learn as a volunteer tutor. It's amazing to see them discover new things! 
           </p>
           <p>
@@ -504,12 +503,12 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">Python</h5>
-                <data value="90">90%</data>
+                <h5 class="h5">Software development</h5>
+                <data value="80">80%</data>
               </div>
 
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
+                <div class="skill-progress-fill" style="width: 80%;"></div>
               </div>
 
             </li>
@@ -517,12 +516,12 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">C++</h5>
-                <data value="50">50%</data>
+                <h5 class="h5">Teamplayer</h5>
+                <data value="80">80%</data>
               </div>
 
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
+                <div class="skill-progress-fill" style="width: 80%;"></div>
               </div>
 
             </li>
@@ -548,7 +547,7 @@
 
 
       <!--
-        - #PORTFOLIO
+        - #PROJECTS
       -->
 
       <article class="projects" data-page="projects">
@@ -557,15 +556,7 @@
           <h2 class="h2 article-title">Projects</h2>
         </header>
 
-        <section class="projects">
 
-          <section class="about-text">
-            <p>
-              Projects will be added soon!
-            </p>
-
-
-          </section>
 
           <div class="filter-select-box">
 
@@ -581,8 +572,151 @@
 
           </div>
 
-
         </section>
+
+        <ul class="project-list">
+
+
+<!-- 
+  PRJECTS:
+    - FasterAStar
+    - Research Paper
+    - Mühle Software
+    - ARUNKI
+    - Hausverwaltungssoftware
+    - mobile robot? (Try to capture simulation)
+ -->
+
+            
+              <li class="project-item active" data-filter-item>
+
+                <a href="https://github.com/eazzyki/FasterAStar">
+                  <figure class="project-img">
+    
+                    <!-- <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div> -->
+                    
+                      <img src="./assets/images/projects/FasterAStar_img.png" alt="finance" loading="lazy">
+                    </figure>
+                  </a>
+    
+                  <div class="project-description">
+                    <h3 class="project-title">FasterAStar: A GUI Application for Shortest Path Algorithms</h3>
+                    <span>2023</span>
+                    <p class="project-category">
+                    FasterAStar presents a graphical user interface (GUI) application designed to explore shortest path algorithms, crafted using C++ and Qt.
+                    Significantly, the focus is on the implementation of the A* algorithm, distinguished by its remarkable computational speed in pathfinding.
+                    </p>
+                  </div>
+                
+              </li>
+
+              <li class="project-item active" data-filter-item>
+
+                <a href="https://arxiv.org/abs/2306.00605">
+                  <figure class="project-img">
+    
+                    <!-- <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div> -->
+                    
+                      <img src="./assets/images/projects/frenet-system4.png" alt="finance" loading="lazy">
+                    </figure>
+                  </a>
+    
+                  <div class="project-description">
+                    <h3 class="project-title">Stay on Track: A Frenet Wrapper to Overcome Off-road Trajectories in Vehicle Motion Prediction</h3>
+                    <span>2023</span>
+                    <p class="project-category">
+                      Predicting the future motion of observed vehicles is a crucial enabler for safe autonomous driving.
+                      This paper presents a general wrapper that leverages a Frenet representation of the scene and that can be applied to SotA models without changing their architectur.      
+                    </p>
+                  </div>
+    
+              </li>
+
+              <li class="project-item active" data-filter-item>
+
+                <a href="https://www.youtube.com/watch?v=ms8xpr5FZS0">
+                  <figure class="project-img">
+    
+                    <!-- <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div> -->
+                    
+                      <img src="./assets/images/projects/ZyklusGraph.png" alt="finance" loading="lazy">
+                    </figure>
+                  </a>
+    
+                  <div class="project-description">
+                    <h3 class="project-title">Robotarm playing Nine Men's Morris</h3>
+                    <span>2021</span>
+                    <p class="project-category">
+                      This complex project involves developing a robot arm capable of playing Nine Men's Morris against a human using only RGB-D frames from a camera. 
+                      It integrates robotics, AI, and computer vision, merging multiple fields of expertise.                  
+                     </p>
+                  </div>
+    
+              </li>
+
+              <li class="project-item active" data-filter-item>
+
+                <a href="assets/ARUNKI/index.html">
+                  <figure class="project-img">
+    
+                    <!-- <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div> -->
+                    
+                      <img src="./assets/images/projects/ARUNKI_img.png" alt="finance" loading="lazy">
+                    </figure>
+                  </a>
+
+                  <!-- 
+                    Run WebGL locally:
+                    python -m http.server --cgi 8360 
+                  -->
+                  <div class="project-description">
+                    <h3 class="project-title">ARUNKI</h3>
+                    <span>2020</span>
+                    <p class="project-category">
+                      Dive into ARUNKI, a dynamic 2D jump-and-run game featuring the beloved character Jerry from Tom & Jerry! 
+                      You can now help Jerry to escape directly on the web!
+                    </p>
+                  </div>
+    
+              </li>
+    
+              <li class="project-item active" data-filter-item>
+
+                <!-- <a href="#"> -->
+                  <figure class="project-img">
+    
+                    <!-- <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div> -->
+                    
+                      <img src="./assets/images/projects/hasuverwaltung1.png" alt="finance" loading="lazy">
+                    </figure>
+                  <!-- </a> -->
+
+                  <div class="project-description">
+                    <h3 class="project-title">Property Management Software</h3>
+                    <span>2019</span>
+                    <p class="project-category">
+                      The Property Management software automates the tracking of meter readings and finances. 
+                      The user-friendly UI simplifies usage, while the program automatically generates year-end reports.
+                      The software was crafted using Python and SQL.
+                      </p>
+                  </div>
+    
+              </li>
+    
+
+
+
+        </ul>
 
       </article>
 
